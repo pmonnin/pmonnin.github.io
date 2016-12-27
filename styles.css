@@ -1,0 +1,275 @@
+body {
+    /*background-color: rgb(222, 222, 222);*/
+    background-color: #ECEFF1;
+}
+
+body .main-wrapper {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.main-wrapper .main-wrapper__cards {
+  max-width: 900px;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.main-wrapper.mdl-layout .mdl-layout__content {
+  padding-top: 30px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.main-wrapper .mdl-card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  min-height: 360px;
+}
+
+.main-wrapper .mdl-card__title {
+  padding: 16px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.main-wrapper .mdl-card__media {
+  box-sizing: border-box;
+  background-size: cover;
+  padding: 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-wrapper .head-cards {
+    min-height: 250px;
+}
+
+.main-wrapper #footer-card {
+    min-height: 16px;
+}
+
+.main-wrapper #footer-card .mdl-card__supporting-text {
+    min-height: 16px;
+}
+
+.main-wrapper .mdl-card__media a, .main-wrapper .mdl-card__title a {
+  color: inherit;
+}
+
+.main-wrapper .mdl-card__supporting-text {
+  width: inherit;
+  padding: 16px;
+  min-height: 64px;
+}
+
+.main-wrapper .mdl-card__supporting-text strong {
+  font-weight: 400;
+}
+
+.main-wrapper .mdl-card__media ~ .mdl-card__supporting-text {
+  min-height: 64px;
+}
+
+.main-wrapper .mdl-card__supporting-text:not(:last-child) {
+  box-sizing: border-box;
+  min-height: 76px;
+}
+
+.main-wrapper:not(.main-wrapper--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+. .mdl-card__actions:first-child {
+  margin-left: 0;
+}
+
+.main-wrapper .meta {
+  box-sizing: border-box;
+  padding: 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: auto;
+}
+
+.main-wrapper .mdl-card .meta .meta--fill {
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-wrapper .meta > * {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wrapper.is-small-screen .main-wrapper__cards > .mdl-card#title-card {
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.main-wrapper.is-small-screen .main-wrapper__cards > .mdl-card#id-and-soc-links {
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.main-wrapper #title-card .mdl-card__media {
+  background-image: url('images/header-background.jpg');
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: flex-end;
+          justify-content: flex-end;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.main-wrapper #title-card .mdl-card__media p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__media {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__media {
+  font-size: 13px;
+  font-weight: 500;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: url('images/pmonnin.jpg') center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+@media all and (max-width: 840px) {
+    .main-wrapper #id-and-soc-links .mdl-card__media {
+        background-size: contain;
+    }
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__media img {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 300px;
+  margin-bottom: 0px;
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__supporting-text {
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.main-wrapper .mdl-card__supporting-text a {
+    /*color: #757575;
+    text-decoration: underline;*/
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__actions {
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  justify-content: space-around;
+}
+
+.main-wrapper #id-and-soc-links .mdl-card__actions img {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-wrapper .mdl-card > a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+.main-wrapper .mdl-card h3 {
+  margin: 0;
+}
+
+.main-wrapper .mdl-card h3 a {
+  text-decoration: none;
+}
+
+.main-wrapper .mdl-card h3.quote:before, .main-wrapper .mdl-card h3.quote:after {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+
+.main-wrapper .mdl-card h3.quote:before {
+  content: '“';
+}
+
+.main-wrapper .mdl-card h3.quote:after {
+  content: '”';
+}
+
+.main-wrapper #id-and-soc-links {
+  overflow: visible;
+  z-index: 10;
+}
+
+/* Fixes for IE 10 */
+.mdl-grid {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
