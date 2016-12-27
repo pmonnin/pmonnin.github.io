@@ -1,5 +1,4 @@
 body {
-    /*background-color: rgb(222, 222, 222);*/
     background-color: #ECEFF1;
 }
 
@@ -213,11 +212,6 @@ body .main-wrapper {
   background-color: #F5F5F5;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-}
-
-.main-wrapper .mdl-card__supporting-text a {
-    /*color: #757575;
-    text-decoration: underline;*/
 }
 
 .main-wrapper #id-and-soc-links .mdl-card__actions {
