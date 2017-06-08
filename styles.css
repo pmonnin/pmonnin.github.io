@@ -1,7 +1,14 @@
+/*
+  Global constants
+*/
+
 body {
     background-color: #ECEFF1;
 }
 
+/*
+  Style for main page
+*/
 body .main-wrapper {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
@@ -260,6 +267,69 @@ body .main-wrapper {
   overflow: visible;
   z-index: 10;
 }
+/*
+  Style for supplementary materials
+*/
+
+body .supplementary-materials {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.supplementary-materials .mdl-layout__content {
+  min-width: 900px;
+  max-width: 900px;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.supplementary-materials-content {
+  width: 100%;
+}
+
+.supplementary-materials-content .mdl-grid {
+  padding: 0;
+}
+
+.supplementary-materials .supplementary-materials-content > .mdl-card .mdl-card__media {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.supplementary-materials .meta > * {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+}
+.supplementary-materials .meta + .mdl-card__supporting-text {
+  border: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.supplementary-materials .meta + .mdl-card__supporting-text p {
+  max-width: 512px;
+  margin: 16px auto;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.supplementary-materials .back-home button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: white;
+  z-index: 9999;
+}
 
 /* Fixes for IE 10 */
 .mdl-grid {
@@ -267,3 +337,5 @@ body .main-wrapper {
   display: -ms-flexbox !important;
   display: flex !important;
 }
+
+
