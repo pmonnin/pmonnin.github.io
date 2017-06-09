@@ -11,9 +11,11 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.loria.fr/pgxo/">
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:versionInfo>
+        <dc:creator>Pierre Monnin, Loria - Inria, Université de Lorraine</dc:creator>
         <dc:creator>Adrien Coulet, Loria - Inria, Université de Lorraine</dc:creator>
         <rdfs:label>PGxO: a lite Pharmacogenomic Ontology</rdfs:label>
+        <dc:creator>Clément Jonquet, LIRMM, Université de Montpellier</dc:creator>
         <rdfs:comment>The ontology aims at providing a small set of concepts and roles that may type elements of pharmacogenomics relationships.</rdfs:comment>
     </owl:Ontology>
     
@@ -155,6 +157,7 @@
     <!-- http://www.loria.fr/pgxo/PharmacogenomicRelationship -->
 
     <owl:Class rdf:about="http://www.loria.fr/pgxo/PharmacogenomicRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -260,7 +263,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Extract1">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <prov:used rdf:resource="http://www.loria.fr/pgxo/655384720"/>
+        <prov:used rdf:resource="http://www.loria.fr/pgxo/pgkbid:981238341"/>
     </owl:NamedIndividual>
     
 
@@ -306,9 +309,9 @@
     
 
 
-    <!-- http://www.loria.fr/pgxo/PharmGKB_vX -->
+    <!-- http://www.loria.fr/pgxo/PharmGKB_v2016-10-05 -->
 
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/PharmGKB_vX">
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/PharmGKB_v2016-10-05">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <prov:wasAttributedTo rdf:resource="http://www.loria.fr/pgxo/PharmGKB"/>
     </owl:NamedIndividual>
@@ -328,8 +331,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Run1a">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <prov:used rdf:resource="http://www.loria.fr/pgxo/26865929"/>
-        <prov:wasAssociatedWith rdf:resource="http://www.loria.fr/pgxo/SemMed_vX"/>
+        <prov:used rdf:resource="http://www.loria.fr/pgxo/pmid:26812933"/>
+        <prov:wasAssociatedWith rdf:resource="http://www.loria.fr/pgxo/SemMed"/>
     </owl:NamedIndividual>
     
 
@@ -348,8 +351,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Run1c">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <prov:used rdf:resource="http://www.loria.fr/pgxo/15585441"/>
-        <prov:used rdf:resource="http://www.loria.fr/pgxo/21220503"/>
+        <prov:used rdf:resource="http://www.loria.fr/pgxo/pmid:18025525"/>
         <prov:wasAssociatedWith rdf:resource="http://www.loria.fr/pgxo/Facta+_v0.8"/>
     </owl:NamedIndividual>
     
@@ -359,23 +361,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/SemMed">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/SemMed_vX -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/SemMed_vX">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
-        <prov:specializationOf rdf:resource="http://www.loria.fr/pgxo/SemMed"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/abdominal_pain -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/abdominal_pain">
-        <rdf:type rdf:resource="http://www.loria.fr/pgxo/Phenotype"/>
     </owl:NamedIndividual>
     
 
@@ -436,13 +421,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/warfarin_CYP2C9">
         <rdf:type rdf:resource="http://www.loria.fr/pgxo/PharmacogenomicRelationship"/>
-        <causes rdf:resource="http://www.loria.fr/pgxo/warfarin_toxicity"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation1"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation2"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation3"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/26865929"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/655384720"/>
         <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/CDW@Hospital"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pgkbid:981238341"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pmid:26812933"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Extract1"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Run1a"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Run1b"/>
@@ -454,55 +438,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/warfarin_CYP2C9_1">
         <rdf:type rdf:resource="http://www.loria.fr/pgxo/PharmacogenomicRelationship"/>
-        <causes rdf:resource="http://www.loria.fr/pgxo/abdominal_pain"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation4"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/15585441"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/21220503"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pmid:18025525"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Run1c"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/warfarin_toxicity -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/warfarin_toxicity">
-        <rdf:type rdf:resource="http://www.loria.fr/pgxo/Phenotype"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/15585441 -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/15585441">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PubMed"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/21220503 -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/21220503">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PubMed"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/26865929 -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/26865929">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PubMed"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/655384720 -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/655384720">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PharmGKB_vX"/>
     </owl:NamedIndividual>
     
 
@@ -529,6 +467,33 @@
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Facta+_v0.8">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
         <prov:specializationOf rdf:resource="http://www.loria.fr/pgxo/Facta+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.loria.fr/pgxo/pgkbid:981238341 -->
+
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/pgkbid:981238341">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PharmGKB_v2016-10-05"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.loria.fr/pgxo/pmid:18025525 -->
+
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/pmid:18025525">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PubMed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.loria.fr/pgxo/pmid:26812933 -->
+
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/pmid:26812933">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/PubMed"/>
     </owl:NamedIndividual>
     
 
