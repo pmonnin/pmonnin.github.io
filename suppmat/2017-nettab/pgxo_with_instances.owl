@@ -259,19 +259,20 @@
     
 
 
+    <!-- http://www.loria.fr/pgxo/Clinical_Data_Warehouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Clinical_Data_Warehouse">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="http://www.loria.fr/pgxo/Paris_University_Hospital"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.loria.fr/pgxo/Extract1 -->
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Extract1">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
         <prov:used rdf:resource="http://www.loria.fr/pgxo/pgkbid:981238341"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/Hospital -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Hospital">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
     </owl:NamedIndividual>
     
 
@@ -296,6 +297,14 @@
     <!-- http://www.loria.fr/pgxo/NLM -->
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/NLM">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.loria.fr/pgxo/Paris_University_Hospital -->
+
+    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Paris_University_Hospital">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
     </owl:NamedIndividual>
     
@@ -341,7 +350,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/Run1b">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <prov:used rdf:resource="http://www.loria.fr/pgxo/CDW@Hospital"/>
+        <prov:used rdf:resource="http://www.loria.fr/pgxo/Clinical_Data_Warehouse"/>
         <prov:wasAssociatedWith rdf:resource="http://www.loria.fr/pgxo/MiningAlgo_v1"/>
     </owl:NamedIndividual>
     
@@ -424,7 +433,7 @@
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation1"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation2"/>
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation3"/>
-        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/CDW@Hospital"/>
+        <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/Clinical_Data_Warehouse"/>
         <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pgkbid:981238341"/>
         <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pmid:26812933"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Extract1"/>
@@ -441,15 +450,6 @@
         <prov:qualifiedGeneration rdf:resource="http://www.loria.fr/pgxo/generation4"/>
         <prov:wasDerivedFrom rdf:resource="http://www.loria.fr/pgxo/pmid:18025525"/>
         <prov:wasGeneratedBy rdf:resource="http://www.loria.fr/pgxo/Run1c"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.loria.fr/pgxo/CDW@Hospital -->
-
-    <owl:NamedIndividual rdf:about="http://www.loria.fr/pgxo/CDW@Hospital">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasAttributedTo rdf:resource="http://www.loria.fr/pgxo/Hospital"/>
     </owl:NamedIndividual>
     
 
