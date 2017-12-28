@@ -338,4 +338,10 @@ body .supplementary-materials {
   display: flex !important;
 }
 
+.class-block {
+    margin-left: 5%;
+}
 
+.class-description {
+  font-style: italic;
+}
