@@ -7,171 +7,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
         <title>Pierre Monnin</title>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css">
-        <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
 
     <body>
-        <div class="main-wrapper mdl-layout mdl-js-layout">
-            <main class="mdl-layout__content">
-                <div class="main-wrapper__cards mdl-grid">
-                    <div class="mdl-card mdl-cell mdl-cell--8-col mdl-cell--9-col-desktop head-cards mdl-shadow--2dp" id="title-card">
-                        <div class="mdl-card__media mdl-color-text--grey-50">
-                            <h3>Pierre Monnin</h3>
-                            <p>PhD student at <a href="http://www.loria.fr/en/">LORIA</a><br />
-                            Teaching Assistant at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a>
-                        </div>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row" id="main-row">
+                    <div id="header-id-picture">
+                        <img src="images/pmonnin.jpg" />
                     </div>
-
-                    <div class="mdl-card mdl-cell mdl-cell--8-col mdl-cell--3-col-desktop head-cards mdl-shadow--2dp" id="id-and-soc-links">
-                        <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-                        </div>
-
-                        <div class="mdl-card__actions meta meta--fill mdl-color-text--grey-600">
-                            <div>
-                                <a href="mailto:firstname-dot-lastname-at-loria-dot-fr"><img src="images/mail.png" alt="E-mail" title="Contact by e-mail" /></a>
-                                <a href="https://linkedin.com/in/pierre-monnin"><img src="images/lk.png" alt="LinkedIn profile" title="LinkedIn profile" /></a>
-                                <a href="https://twitter.com/piermonn"><img src="images/tw.png" alt="Twitter profile" title="Twitter profile" /></a>
-                                <a href="https://github.com/pmonnin"><img src="images/github.png" alt="GitHub profile" title="GitHub profile" /></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
-                        <div class="mdl-tabs mdl-js-tabs">
-                            <div class="mdl-tabs__tab-bar mdl-js-ripple-effect">
-                                <a href="#research" class="mdl-tabs__tab is-active">Research</a>
-                                <a href="#teaching" class="mdl-tabs__tab">Teaching</a>
-                            </div>
-
-                            <div class="mdl-tabs__panel is-active" id="research">
-                                <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                                    <h5>Current</h5>
-				                    I am a PhD student in the ORPAILLEUR team of LORIA, under the supervision of <a href="https://members.loria.fr/ANapoli/">Amedeo Napoli</a> and <a href="https://members.loria.fr/ACoulet/">Adrien Coulet</a>.
-                                    My work is part of the <a href="http://practikpharma.loria.fr/">PractiKPharma</a> project, funded by the French National Research Agency (ANR). It is
-                                    focused on knowledge extraction and comparison for pharmacogenomics.
-
-                                    <h5>Publications</h5>
-                                    <ul>
-                                        <li>
-                                            Monnin, P., Napoli, A., &amp; Coulet, A. (2017, November).
-                                            Discovering Subsumption Axioms with Concept Annotation.
-                                            In <span style="font-style: italic;">Gestion de Données — Principes, Technologies et Applications (BDA 2017)</span>.
-                                            <a href="https://hal.inria.fr/hal-01671454/file/main.pdf">[pdf]</a>
-                                        </li>
-                                    	<li>
-                                            Monnin, P., Jonquet, C., Legrand, J., Napoli, A., &amp; Coulet, A. (2017).
-                                            PGxO: A very lite ontology to reconcile pharmacogenomic knowledge units.
-                                            In <span style="font-style: italic;">Methods, tools & platforms for Personalized Medicine in the Big Data Era, NETTAB 2017</span>
-                                            <a href="https://doi.org/10.7287/peerj.preprints.3140v1">https://doi.org/10.7287/peerj.preprints.3140v1</a>.
-                                            <a href="https://hal.inria.fr/hal-01593184/file/peerj-preprints-3140.pdf">[pdf]</a>
-                                        </li>
-                                        <li>
-                                            Monnin, P., Lezoche, M., Napoli, A., &amp; Coulet, A. (2017, June).
-                                            Using Formal Concept Analysis for Checking the Structure of an Ontology in LOD: The Example of DBpedia.
-                                            In <span style="font-style: italic;">23rd International Symposium on Methodologies for Intelligent Systems, ISMIS 2017</span>.
-                                            <a href="https://hal.inria.fr/hal-01511909/file/final_paper_88.pdf">[pdf]</a>
-                                        </li>
-                                    </ul>
-
-                                    <h5>Interests</h5>
-                                    <ul>
-                                        <li>Knowledge discovery, engineering and representation</li>
-                                        <li>Semantic Web</li>
-                                        <li>Linked Open Data</li>
-                                        <li>Data mining</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="mdl-tabs__panel" id="teaching">
-                                <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                                    <h5>2017 - 2018</h5>
-                                    <div class="class-block">
-                                        <h6>IA - Artificial Intelligence</h6>
-                                        <span class="class-description">
-                                            Search algorithms (e.g., A*, alpha-beta pruning), genetic algorithms, constraint satisfaction problems, Markov decision processes, decision trees, neural networks (e.g., backpropagation algorithm, multilayer perceptron, K-means, Kohonen map)
-                                        </span>
-                                        <ul>
-                                            <li>M.Sc. Year 2 (Bac+5)</li>
-                                            <li>Lectures, tutorials and practicals</li>
-                                        </ul>
-                                    </div>
-                                    <div class="class-block">
-                                        <h6>SBC - Knowledge Based Systems</h6>
-                                        <span class="class-description">
-                                            Semantic Web (RDF, ontologies, OWL reasonning, SPARQL), Prolog
-                                        </span>
-                                        <ul>
-                                            <li>M.Sc. Year 2 (Bac+5)</li>
-                                            <li>Lectures, tutorials and practicals</li>
-                                        </ul>
-                                    </div>
-                                    <div class="class-block">
-                                        <h6>PCL - Compiler implementation project</h6>
-                                        <ul>
-                                            <li>M.Sc. Year 1 (Bac+4)</li>
-                                            <li>Practicals</li>
-                                            <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <h5>2016 - 2017</h5>
-                                    <div class="class-block">
-                                        <h6>TOP - Computer Science basics</h6>
-                                        <span class="class-description">
-                                            Sorting algorithms, complexity, recursivity, back-tracking, Hoare logic
-                                        </span>
-                                        <ul>
-                                            <li>B.Eng. (Bac+3)</li>
-                                            <li>Tutorials and practicals</li>
-                                            <li>Project: implementing a music recognition service like Shazam</li>
-                                            <li><a href="https://pmonnin.github.io/top-music-detection/">Documentation of the API provided to the students for the project</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="class-block">
-                                        <h6>TRAD1 - Theory of Compilation</h6>
-                                        <span class="class-description">
-                                            LR(0), SLR(1), LR(1) and LALR(1) parsers, Symbol Tables, Abstract Syntax Trees
-                                        </span>
-                                        <ul>
-                                            <li>M.Sc. Year 1 (Bac+4)</li>
-                                            <li>Tutorials</li>
-                                        </ul>
-                                    </div>
-                                    <div class="class-block">
-                                        <h6>PCL - Compiler implementation project</h6>
-                                        <ul>
-                                            <li>M.Sc. Year 1 (Bac+4)</li>
-                                            <li>Practicals</li>
-                                            <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <h5>2015 - 2016</h5>
-                                    <div class="class-block">
-                                        <h6>PCL - Compiler implementation project</h6>
-                                        <ul>
-                                            <li>M.Sc. Year 1 (Bac+4)</li>
-                                            <li>Practicals</li>
-                                            <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp" id="footer-card">
-                        <div class="mdl-card__supporting-text">
-                            Last update: December 28th 2017
-                        </div>
-                    </div>
+                    <p class="mdl-layout__title">
+                        Pierre Monnin
+                    </p>
+                    <p>
+                        PhD student at <a href="https://www.loria.fr/en">LORIA</a>
+                        <br />
+                        Teaching Assistant at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a>
+                    </p>
                 </div>
+                <div class="mdl-layout__header-row" id="menu-bar">
+                    <nav class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                        <a class="mdl-layout__tab is-active" href="index.html">Research</a>
+                        <a class="mdl-layout__tab" href="publications.html">Publications</a>
+                        <a class="mdl-layout__tab" href="teaching.html">Teaching</a>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="mdl-layout__content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col-desktop"></div>
+
+                    <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp max-width">
+                            <p>
+                                I am a PhD student in the ORPAILLEUR team of <a href="https://www.loria.fr/en">LORIA</a>,
+                                under the supervision of <a href="https://members.loria.fr/ANapoli/">Amedeo Napoli</a> and
+                                <a href="https://members.loria.fr/ACoulet/">Adrien Coulet</a>.
+                                My work is part of the <a href="http://practikpharma.loria.fr">PractiKPharma project</a>,
+                                funded by the French National Research Agency (ANR).
+                                It is focused on knowledge extraction and comparison for pharmacogenomics.
+                            </p>
+
+                            <p>
+                                Interests: Knowledge Discovery - Knowledge Representation - Semantic Web - Linked Open Data
+                            </p>
+
+                            <div id="profiles">
+                                <a href="mailto:firstname-dot-lastname-at-loria-dot-fr"><img src="images/mail.png" /></a>
+                                <a href="https://linkedin.com/in/pierre-monnin"><img src="images/lk.png" /></a>
+                                <a href="https://twitter.com/piermonn"><img src="images/tw.png" /></a>
+                                <a href="https://github.com/pmonnin"><img src="images/github.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--2-col-desktop"></div>
+                </div>
+
+                <footer class="mdl-mini-footer">
+                    <p>
+                        Last udpate: October 27, 2018
+                        <br />
+                        This website uses
+                        <a href="https://github.com/google/material-design-lite">Material Design Lite</a>
+                        under
+                        <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Apache-2 license</a>
+                        <br />
+                        Design inspired from the <a href="https://getmdl.io/templates/index.html">Portfolio template</a>
+                    </p>
+                </footer>
             </main>
+
         </div>
     </body>
 </html>
