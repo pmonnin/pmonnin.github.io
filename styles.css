@@ -115,6 +115,7 @@ h3 {
 
 .publication {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .publication p {
@@ -122,10 +123,12 @@ h3 {
     margin-right: 50px;
     padding: 0;
     text-align: justify;
+    width: 100%;
 }
 
 .publication button {
     width: 20px;
+    margin-right: 5px;
 }
 
 .no-size-grid {
