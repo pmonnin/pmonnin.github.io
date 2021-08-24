@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Pierre Monnin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        
         <title>Pierre Monnin</title>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -15,276 +16,385 @@
     </head>
 
     <body>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-            <header class="mdl-layout__header">
-                <div class="mdl-layout__header-row" id="main-row">
-                    <div id="header-id-picture">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp mdl-cell--top" id="id-card">
+                <div class="center">
+                    <div id="id-picture" class="id-block">
                         <img src="images/pmonnin.jpg" />
                     </div>
-                    <p class="mdl-layout__title">
-                        Pierre Monnin
-                    </p>
-                    <p>
-                        PhD student at <a href="https://www.loria.fr/en">LORIA</a>
-                        <br />
-                        Teaching Assistant at <a href="http://institut-sciences-digitales.fr/">IDMC</a>
-                    </p>
+                    <div class="id-block">
+                        <p id="id-title">
+                            Pierre Monnin
+                        </p>
+                        <p id="id-subtitle">
+                            Researcher at <a href="https://hellofuture.orange.com/en/">Orange</a><br />
+                            <span class="material-icons" style="vertical-align: middle;">
+                                location_on
+                            </span>Belfort, France
+                        </p>
+                    </div>
+                    <div id="profiles" class="id-block">
+                        <a href="mailto:firstname-dot-lastname-at-orange-dot-com"><img src="images/mail.png" /></a>
+                        <a href="https://orcid.org/0000-0002-2017-8426"><img src="images/orcid.png" alt="ORCID iD icon"></a>
+                        <a href="https://linkedin.com/in/pierre-monnin"><img src="images/lk.png" /></a>
+                        <a href="https://twitter.com/piermonn"><img src="images/tw.png" /></a>
+                        <a href="https://github.com/pmonnin"><img src="images/github.png" /></a>
+                    </div>
                 </div>
-                <div class="mdl-layout__header-row" id="menu-bar">
-                    <nav class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                        <a class="mdl-layout__tab" href="index.html">Research</a>
-                        <a class="mdl-layout__tab is-active" href="publications.html">Publications</a>
-                        <a class="mdl-layout__tab" href="teaching.html">Teaching</a>
-                    </nav>
-                </div>
-            </header>
+            </div>
 
-            <main class="mdl-layout__content">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--hide-desktop">
-                        <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp max-width null-min-height">
-                            <ul class="demo-list-icon mdl-list">
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2019">2019</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2018">2018</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2017">2017</a>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar mdl-card__title">
+                        <a href="index.html" class="mdl-tabs__tab">About</a>
+                        <a href="publications.html" class="mdl-tabs__tab is-active">Publications &amp; Talks</a>
+                        <a href="services.html" class="mdl-tabs__tab">Community Services</a>
+                        <a href="teaching.html" class="mdl-tabs__tab">Teaching &amp; Supervision</a>
                     </div>
 
-                    <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
-                        <div class="mdl-grid no-size-grid">
-                            <div class="mdl-cell mdl-cell--12-col-desktop fixed-cell">
-                                <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp null-min-height">
-                                    <ul class="demo-list-icon mdl-list">
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2019">2019</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2018">2018</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2017">2017</a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="mdl-tabs__panel is-active mdl-card__supporting-text">
+                        <p>
+                            Full list of publications available on
+                            <a href="https://scholar.google.fr/citations?user=uEV9R3UAAAAJ">Google Scholar</a>
+                            and <a href="https://dblp.uni-trier.de/pers/hd/m/Monnin:Pierre">dblp</a>
+                        </p>
 
-                    <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-                        <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp max-width">
+                        <h3>International journals</h3>
+
+                        <div class="publication">
                             <p>
-                                Full list of publications available on
-                                <a href="https://scholar.google.fr/citations?user=uEV9R3UAAAAJ">Google Scholar</a>
-                                and <a href="https://dblp.uni-trier.de/pers/hd/m/Monnin:Pierre">dblp</a>
+                                Emmanuel Bresso, <span class="author">Pierre Monnin</span>, Cédric Bousquet, François-Élie Calvier, Ndeye-Coumba Ndiaye, Nadine Petitpain, Malika Smaïl-Tabbone, Adrien Coulet. Investigating ADR mechanisms with Explainable AI: a feasibility study with knowledge graph mining. <span class="journal">BMC medical informatics and decision making</span>, BioMed Central, 2021, 21 (1), 1-14.
                             </p>
 
-                            <h2 id="2019">2019</h2>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://doi.org/10.1186/s12911-021-01518-6">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://doi.org/10.1186/s12911-021-01518-6">
+                                    File
+                                </a>
+                            </button>
+                        </div>
 
-                            <div class="increment-block">
-                                <h3>International Journals</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>, Legrand, J.,
-                                        Husson, G., Ringot, P.,
-                                        Tchechmedjiev, A., Jonquet, C., Napoli, A.
-                                        &amp; Coulet, A. (2019).
-                                        PGxO and PGxLOD: a reconciliation of pharmacogenomic knowledge of various provenances, enabling further comparison.
-                                        <span class="journal">BMC Bioinformatics</span>, 20(Suppl 4), 139.
-                                    </p>
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Joël Legrand, Graziella Husson, Patrice Ringot, Andon Tchechmedjiev, Clément Jonquet, Amedeo Napoli, Adrien Coulet. PGxO and PGxLOD: a reconciliation of pharmacogenomic knowledge of various provenances, enabling further comparison. <span class="journal">BMC Bioinformatics</span>, BioMed Central, 2019, 20 (S4).
+                            </p>
 
-                                    <a href="https://doi.org/10.1186/s12859-019-2693-9">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
 
-                                <h3>International Workshops with Program Committee</h3>
-                                <div class="publication">
-                                        <p>
-                                            <span class="author">Monnin, P.</span>, Raissi, C.,
-                                            Napoli, A., &amp; Coulet, A. (2019, June).
-                                            Knowledge Reconciliation with Graph Convolutional Networks: Preliminary Results.
-                                            In <span class="journal">Proceedings of the Workshop on Deep Learning for Knowledge Graphs (DL4KG2019).</span>
-                                            CEUR Workshop Proceedings (No. 2377).
-                                        </p>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://doi.org/10.1186/s12859-019-2693-9">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://doi.org/10.1186/s12859-019-2693-9">
+                                    File
+                                </a>
+                            </button>
+                            
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    scatter_plot
+                                </span>
+                                <a href="https://pgxlod.loria.fr">
+                                    Knowledge Graph
+                                </a>
+                            </button>
+                        </div>
 
-                                        <a href="https://hal.inria.fr/hal-02155546/document">
-                                            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                                <i class="material-icons">note</i>
-                                            </button>
-                                        </a>
-                                    </div>
-                            </div>
+                        <h3>International conferences (with program committee)</h3>
 
-                            <h2 id="2018">2018</h2>
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Emmanuel Bresso, Miguel Couceiro, Malika Smaïl-Tabbone, Amedeo Napoli, Adrien Coulet. Tackling scalability issues in mining path patterns from knowledge graphs: a preliminary study. <span class="journal">1st international conference ``Algebras, graphs and ordered sets'' (ALGOS 2020)</span>. Nancy, France, Aug. 2020.
+                            </p>
 
-                            <div class="increment-block">
-                                <h3>International Workshops with Program Committee</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>,
-                                        Napoli, A., &amp; Coulet, A. (2018, July).
-                                        Combining Concept Annotation and Pattern Structures for Guiding Ontology Mapping.
-                                        In <span class="journal">6th International Workshop "What can FCA do for Artificial Intelligence", FCA4AI@IJCAI2018.</span>
-                                        CEUR Workshop Proceedings (No. 2149).
-                                    </p>
 
-                                    <a href="https://hal.inria.fr/hal-01858391/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-02913224/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-02913224/document">
+                                    File
+                                </a>
+                            </button>
+                            
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    code
+                                </span>
+                                <a href="https://github.com/pmonnin/kgpm">
+                                    Code
+                                </a>
+                            </button>
+                        </div>
 
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span> (2018, November).
-                                        Discovering and Comparing Relational Knowledge, the Example of Pharmacogenomics.
-                                        In <span class="journal">Proceedings of the EKAW Doctoral Consortium 2018 co-located with the 21st International Conference on
-                                        Knowledge Engineering and Knowledge Management (EKAW 2018).</span> CEUR Workshop Proceedings (No. 2306).
-                                    </p>
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Miguel Couceiro, Amedeo Napoli, Adrien Coulet. Knowledge-Based Matching of n-ary Tuples. <span class="journal">Ontologies and Concepts in Mind and Machine - 25th International Conference on Conceptual Structures, ICCS 2020, Bolzano, Italy, September 18–20, 2020, Proceedings</span>. Vol. 12277. Lecture Notes in Computer Science. Springer, 2020, pp. 48–56. DOI: 10.1007/978-3-030-57855-8_4.
+                            </p>
 
-                                    <a href="https://hal.inria.fr/hal-01955424/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
 
-                                <h3>Preprints</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>, Legrand, J.,
-                                        Husson, G., Ringot, P.,
-                                        Tchechmedjiev, A., Jonquet, C., Napoli, A.
-                                        &amp; Coulet, A. (2018).
-                                        PGxO and PGxLOD: a reconciliation of pharmacogenomic knowledge of various provenances, enabling further comparison.
-                                        <span class="journal">bioRxiv</span>, 390971.
-                                    </p>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-02493067/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-02493067/document">
+                                    File
+                                </a>
+                            </button>
+                            
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    code
+                                </span>
+                                <a href="https://github.com/pmonnin/tcn3r">
+                                    Code
+                                </a>
+                            </button>
+                        </div>
 
-                                    <a href="https://www.biorxiv.org/content/biorxiv/early/2018/09/23/390971.full.pdf">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Mario Lezoche, Amedeo Napoli, Adrien Coulet. Using Formal Concept Analysis for Checking the Structure of an Ontology in LOD: The Example of DBpedia. <span class="journal">Foundations of Intelligent Systems - 23rd International Symposium, ISMIS 2017, Warsaw, Poland, June 26-29, 2017, Proceedings</span>. Vol. 10352. Lecture Notes in Computer Science. Springer, 2017, pp. 674–683. DOI: 10.1007/978-3-319-60438-1_66.
+                            </p>
 
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>,
-                                        Napoli, A.
-                                        &amp; Coulet, A. (2018).
-                                        Data-Interlinking: the Seed of Knowledge Reconciliation in Pharmacogenomics.
-                                    </p>
 
-                                    <a href="https://hal.inria.fr/hal-01955262/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01511909/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01511909/document">
+                                    File
+                                </a>
+                            </button>
+                            
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    code
+                                </span>
+                                <a href="https://github.com/pmonnin/fca-ontology-checking">
+                                    Code
+                                </a>
+                            </button>
+                        </div>
 
-                            <h2 id="2017">2017</h2>
+                        <h3>International workshops (with program committee)</h3>
 
-                            <div class="increment-block">
-                                <h3>International Conferences with Program Committee</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>,
-                                        Lezoche, M., Napoli, A., &amp; Coulet, A.
-                                        (2017, June).
-                                        Using Formal Concept Analysis for checking the structure of an ontology in LOD: the example of DBpedia.
-                                        In <span class="journal">International Symposium on Methodologies for Intelligent Systems (ISMIS 2017)</span>
-                                        (pp. 674-683). Springer, Cham.
-                                    </p>
+                        <div class="publication">
+                            <p>
+                                Viet-Phi Huynh, Jixiong Liu, Yoan Chabot, Thomas Labbé, <span class="author">Pierre Monnin</span>, Raphaël Troncy. DAGOBAH: Enhanced Scoring Algorithms for Scalable Annotations of Tabular Data. <span class="journal">Proceedings of the Semantic Web Challenge on Tabular Data to Knowledge Graph Matching (SemTab 2020) co-located with the 19th International Semantic Web Conference (ISWC 2020), Virtual conference (originally planned to be in Athens, Greece), November 5, 2020</span>. Vol. 2775. CEUR Workshop Proceedings. CEUR-WS.org, 2020, pp. 27–39.
+                            </p>
 
-                                    <a href="https://hal.inria.fr/hal-01511909/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
 
-                                <h3>International Workshops with Program Committee</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>,
-                                        Jonquet, C., Legrand, J., Napoli, A., &amp;
-                                        Coulet, A. (2017, October).
-                                        PGxO: A very lite ontology to reconcile pharmacogenomic knowledge units.
-                                        In <span class="journal">Methods, tools &amp; platforms for Personalized Medicine in the Big Data Era (NETTAB 2017)</span>.
-                                    </p>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="http://ceur-ws.org/Vol-2775/paper3.pdf">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="http://ceur-ws.org/Vol-2775/paper3.pdf">
+                                    File
+                                </a>
+                            </button>
+                        </div>
 
-                                    <a href="https://hal.inria.fr/hal-01593184/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Chedy Raïssi, Amedeo Napoli, Adrien Coulet. Knowledge Reconciliation with Graph Convolutional Networks: Preliminary Results. <span class="journal">Proceedings of the Workshop on Deep Learning for Knowledge Graphs (DL4KG2019) Co-located with the 16th Extended Semantic Web Conference 2019 (ESWC 2019), Portoroz, Slovenia, June 2, 2019</span>. Vol. 2377. CEUR Workshop Proceedings. CEUR-WS.org, 2019, pp. 47–56.
+                            </p>
 
-                                <h3>Posters in National Conferences with Program Committee</h3>
-                                <div class="publication">
-                                    <p>
-                                        <span class="author">Monnin, P.</span>, Napoli, A., &amp; Coulet, A. (2017, November).
-                                        Discovering Subsumption Axioms with Concept Annotation.
-                                        In <span class="journal">Gestion de Données - Principes, Technologies et Applications (BDA 2017)</span>.
-                                    </p>
 
-                                    <a href="https://hal.inria.fr/hal-01671454/document">
-                                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                                            <i class="material-icons">note</i>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-02155546/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-02155546/document">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>. Discovering and Comparing Relational Knowledge, the Example of Pharmacogenomics. <span class="journal">Proceedings of the EKAW Doctoral Consortium 2018 co-located with the 21st International Conference on Knowledge Engineering and Knowledge Management (EKAW 2018), Nancy, France, November 13, 2018</span>. Vol. 2306. CEUR Workshop Proceedings. CEUR-WS.org, 2018.
+                            </p>
+
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01955424/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01955424/document">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Amedeo Napoli, Adrien Coulet. Combining Concept Annotation and Pattern Structures for Guiding Ontology Mapping. <span class="journal">Proceedings of the 6th International Workshop ``What can FCA do for Artificial Intelligence?'' co-located with International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence (IJCAI/ECAI 2018), Stockholm, Sweden, July 13, 2018</span>. Vol. 2149. CEUR Workshop Proceedings. CEUR-WS.org, 2018, pp. 117–126.
+                            </p>
+
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01858391/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01858391/document">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Clément Jonquet, Joël Legrand, Amedeo Napoli, Adrien Coulet. PGxO: A very lite ontology to reconcile pharmacogenomic knowledge units. <span class="journal">Methods, tools &amp; platforms for Personalized Medicine in the Big Data Era, NETTAB 2017</span>. Vol. 5. PeerJ PrePrints. PeerJ, 2017. DOI: 10.7287/peerj.preprints.3140v1.
+                            </p>
+
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01593184v2/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01593184v2/document">
+                                    File
+                                </a>
+                            </button>
+                            
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    scatter_plot
+                                </span>
+                                <a href="https://pgxo.loria.fr">
+                                    Ontology
+                                </a>
+                            </button>
+                        </div>
+
+                        <h3>Posters in national conferences (with program committee)</h3>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Amedeo Napoli, Adrien Coulet. Discovering Subsumption Axioms with Concept Annotation. <span class="journal">BDA 2017 - 33ème Conférence sur la Gestion de Données — Principes, Technologies et Applications</span>, Nov 2017, Nancy, France.
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01671454v2/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01671454v2/document">
+                                    File
+                                </a>
+                            </button>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                <span class="material-icons">
+                                    code
+                                </span>
+                                <a href="https://github.com/pmonnin/fca-ontology-checking">
+                                    Code
+                                </a>
+                            </button>
+                        </div>
+
+                        <h3>Thesis</h3>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>. Matching and mining in knowledge graphs of the Web of data - Applications in pharmacogenomics. Université de Lorraine, 2020. 
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/tel-03122326/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/tel-03122326/document">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <h3>Editorships</h3>
+
+                        <div class="publication">
+                            <p>
+                                Miguel Couceiro, <span class="author">Pierre Monnin</span>, Amedeo Napoli. Proceedings of the 1st International Conference on Algebras, Graphs and Ordered Sets (ALGOS 2020), Online (originally planned in Nancy, France), August 26-28, 2020, CEUR Workshop Proceedings Volume 2925.
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="http://ceur-ws.org/Vol-2925">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="http://ceur-ws.org/Vol-2925">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <h3>Talks</h3>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>. DAGOBAH - An End-to-End Context-Free Semantic Annotation System for Tabular Data. <a class="journal" href="https://malotec.loria.fr/">MALOTEC seminar</a>, LORIA, February 4, 2021, Nancy, France (remote).</li>
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Yoan Chabot, <span class="author">Pierre Monnin</span>. DAGOBAH : Activités de recherche Orange autour de l’annotation sémantique de données tabulaires. <span class="journal">TextMine'21 - Atelier sur la Fouille de Textes - Organisé conjointement à la conférence EGC (Extraction et Gestion des Connaissances)</span>, Jan 26, 2021, Montpellier, France.
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://www.researchgate.net/profile/Vincent-Lemaire-3/publication/348780896_Actes_de_l%27Atelier_sur_la_Fouille_de_Textes_TextMine_-_Organisateurs_Organise_conjointement_a_la_conference_EGC_Extraction_et_Gestion_des_Connaissances_le_26_janvier_2021_a_Montpellier/links/60127d10a6fdcc071b99f969/Actes-de-lAtelier-sur-la-Fouille-de-Textes-TextMine-Organisateurs-Organise-conjointement-a-la-conference-EGC-Extraction-et-Gestion-des-Connaissances-le-26-janvier-2021-a-Montpellier.pdf#page=23">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://www.researchgate.net/profile/Vincent-Lemaire-3/publication/348780896_Actes_de_l%27Atelier_sur_la_Fouille_de_Textes_TextMine_-_Organisateurs_Organise_conjointement_a_la_conference_EGC_Extraction_et_Gestion_des_Connaissances_le_26_janvier_2021_a_Montpellier/links/60127d10a6fdcc071b99f969/Actes-de-lAtelier-sur-la-Fouille-de-Textes-TextMine-Organisateurs-Organise-conjointement-a-la-conference-EGC-Extraction-et-Gestion-des-Connaissances-le-26-janvier-2021-a-Montpellier.pdf#page=24">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <h3>Others</h3>
+
+                        <div class="publication">
+                            <p>
+                                François-Élie Calvier, <span class="author">Pierre Monnin</span>, Miguel Boland, Patryk Jarnot, Emmanuel Bresso, Malika Smaïl-Tabbone, Adrien Coulet, Cedric Bousquet. Providing Molecular Characterization for Unexplained Adverse Drug Reactions. Podium Abstract at <span class="journal">MedInfo 2019</span>, Lyon, France. July 2019.
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-02196134/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-02196134/document">
+                                    File
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                <span class="author">Pierre Monnin</span>, Amedeo Napoli, Adrien Coulet. Data-Interlinking: the Seed of Knowledge Reconciliation in Pharmacogenomics. Presented at the Workshop <span class="journal">Symbolic methods for data-interlinking</span> co-located with the 21st International Conference on Knowledge Engineering and Knowledge Management (EKAW 2018), Nancy, France. Nov. 2018.
+                            </p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://hal.inria.fr/hal-01955262/document">
+                                <span class="material-icons" style="vertical-align: middle;">
+                                    description
+                                </span>
+                                <a href="https://hal.inria.fr/hal-01955262/document">
+                                    File
+                                </a>
+                            </button>
                         </div>
                     </div>
-
-                    <div class="mdl-cell mdl-cell--2-col-desktop"></div>
                 </div>
+            </div>
 
-                <footer class="mdl-mini-footer">
-                    <p>
-                        Last udpate: August 3, 2019
-                        <br />
-                        This website uses
-                        <a href="https://github.com/google/material-design-lite">Material Design Lite</a>
-                        under
-                        <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Apache-2 license</a>
-                        <br />
-                        Design inspired from the <a href="https://getmdl.io/templates/index.html">Portfolio template</a>
-                    </p>
-                </footer>
-            </main>
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
+            </div>
 
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp" id="footer-card">
+                <div class="mdl-card__supporting-text">
+                    <p>Last update: August 21, 2021</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Pierre Monnin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        
         <title>Pierre Monnin</title>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -15,177 +16,375 @@
     </head>
 
     <body>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-            <header class="mdl-layout__header">
-                <div class="mdl-layout__header-row" id="main-row">
-                    <div id="header-id-picture">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp mdl-cell--top" id="id-card">
+                <div class="center">
+                    <div id="id-picture" class="id-block">
                         <img src="images/pmonnin.jpg" />
                     </div>
-                    <p class="mdl-layout__title">
-                        Pierre Monnin
-                    </p>
-                    <p>
-                        PhD student at <a href="https://www.loria.fr/en">LORIA</a>
-                        <br />
-                        Teaching Assistant at <a href="http://institut-sciences-digitales.fr/">IDMC</a>
-                    </p>
+                    <div class="id-block">
+                        <p id="id-title">
+                            Pierre Monnin
+                        </p>
+                        <p id="id-subtitle">
+                            Researcher at <a href="https://hellofuture.orange.com/en/">Orange</a><br />
+                            <span class="material-icons" style="vertical-align: middle;">
+                                location_on
+                            </span>Belfort, France
+                        </p>
+                    </div>
+                    <div id="profiles" class="id-block">
+                        <a href="mailto:firstname-dot-lastname-at-orange-dot-com"><img src="images/mail.png" /></a>
+                        <a href="https://orcid.org/0000-0002-2017-8426"><img src="images/orcid.png" alt="ORCID iD icon"></a>
+                        <a href="https://linkedin.com/in/pierre-monnin"><img src="images/lk.png" /></a>
+                        <a href="https://twitter.com/piermonn"><img src="images/tw.png" /></a>
+                        <a href="https://github.com/pmonnin"><img src="images/github.png" /></a>
+                    </div>
                 </div>
-                <div class="mdl-layout__header-row" id="menu-bar">
-                    <nav class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                        <a class="mdl-layout__tab" href="index.html">Research</a>
-                        <a class="mdl-layout__tab" href="publications.html">Publications</a>
-                        <a class="mdl-layout__tab is-active" href="teaching.html">Teaching</a>
-                    </nav>
-                </div>
-            </header>
+            </div>
 
-            <main class="mdl-layout__content">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--hide-desktop">
-                        <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp max-width">
-                            <ul class="demo-list-icon mdl-list">
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2019-2020">2019 - 2020</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2018-2019">2018 - 2019</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2017-2018">2017 - 2018</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2016-2017">2016 - 2017</a>
-                                    </span>
-                                </li>
-                                <li class="mdl-list__item">
-                                    <span class="mdl-list__item-primary-content">
-                                        <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                        <a href="#2015-2016">2015 - 2016</a>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar mdl-card__title">
+                        <a href="index.html" class="mdl-tabs__tab">About</a>
+                        <a href="publications.html" class="mdl-tabs__tab">Publications &amp; Talks</a>
+                        <a href="services.html" class="mdl-tabs__tab">Community Services</a>
+                        <a href="teaching.html" class="mdl-tabs__tab is-active">Teaching &amp; Supervision</a>
                     </div>
 
-                    <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
-                        <div class="mdl-grid no-size-grid">
-                            <div class="mdl-cell mdl-cell--12-col-desktop fixed-cell">
-                                <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp">
-                                    <ul class="demo-list-icon mdl-list">
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2019-2020">2019 - 2020</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2018-2019">2018 - 2019</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2017-2018">2017 - 2018</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2016-2017">2016 - 2017</a>
-                                            </span>
-                                        </li>
-                                        <li class="mdl-list__item">
-                                            <span class="mdl-list__item-primary-content">
-                                                <i class="material-icons mdl-list__item-icon">chevron_right</i>
-                                                <a href="#2015-2016">2015 - 2016</a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="mdl-tabs__panel is-active mdl-card__supporting-text">
+                        <p>Classes were taught in French unless otherwise stated</p>
 
-                    <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-                        <div class="mdl-card mdl-card__supporting-text mdl-card--border mdl-shadow--2dp through mdl-shadow--3dp max-width">
-                            <h2 id="2019-2020">2019 - 2020</h2>
+                        <h2>Student supervision</h2>
+                        <ul>
+                            <li>2019: 1 student, B.Eng. Year 2 (Bac+2), Internship, 2 months</li>
+                            <li>2018: 2 students, M.Sc. Year 1 (Bac+4), Research Project, 5 months, 80h/student</li>
+                            <li>2017: 1 student, M.Sc. Year 1 (Bac+4), Internship, 3 months</li>
+                        </ul>
+
+                        <h2 id="2019-2020">2019 - 2020</h2>
 
                             <p>Teaching Assistant at <a href="http://institut-sciences-digitales.fr/">IDMC</a></p>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Algorithmics</h3>
+
+                                <p class="class-description">
+                                    Introduction to algorithms (variables, assignments, conditions, loops, subalgorithms, etc.)
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 1 (Bac+1)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Web Technologies</h3>
+
+                                <p class="class-description">
+                                    HTML, CSS, and an introduction to JavaScript
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 1 (Bac+1)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Tools and Digital Culture</h3>
+
+                                <p class="class-description">
+                                    Proficient use of Word, Excel, and Internet Research
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 1 (Bac+1)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Programming with Java</h3>
+
+                                <p class="class-description">
+                                    Basic concepts of the Java language and Object Oriented Programming
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 2 (Bac+2)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Advanced Programming with Java</h3>
+
+                                <p class="class-description">
+                                    Advanced concepts of the Java language (collections, threads, User Interface, etc.)
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 3 (Bac+3)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Computational complexity</h3>
+
+                                <p class="class-description">
+                                    Best, worst, and average case complexity, sorting algorithms, recursion, de-recursion, randomized algorithms, greedy algorithms, dynamic programming, backtracking, data structures (stacks, queues, heaps, graphs)
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Sc. Year 3 (Bac+3)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Lectures</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Algorithms and Programming</h3>
+
+                                <p class="class-description">
+                                    Introduction to programming in Python
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Semantic Web (in English)</h3>
+
+                                <p class="class-description">
+                                    First-order logic, Description Logics, Formal Concept Analysis, itemsets, association rules, Knowledge Graphs, Semantic Web (RDF, SPARQL) and applications
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Calculability and Complexity (in English)</h3>
+
+                                <p class="class-description">
+                                    Turing machines, uncomputability, undecidability, complexity (e.g., big O notation)
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Introduction to GNU/Linux and Git (in English)</h3>
+
+                                <p class="class-description">
+                                    Introduction to GNU/Linux and Git for development and project management
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Lectures</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="increment-block">
+                                <h3 class="class-name">Ontologies (in English)</h3>
+
+                                <p class="class-description">
+                                    Description Logics, SPARQL
+                                </p>
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                </div>
+                            </div>
 
                             <h2 id="2018-2019">2018 - 2019</h2>
 
                             <p>Teaching Assistant at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a></p>
 
                             <div class="increment-block">
-                                <h3>IA - Artificial Intelligence</h3>
+                                <h3 class="class-name">IA - Artificial Intelligence</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Search algorithms (e.g., A*, alpha-beta pruning),
                                     genetic algorithms,
                                     constraint satisfaction problems,
                                     Markov decision processes,
                                     decision trees,
                                     neural networks (e.g., backpropagation algorithm, multilayer perceptron, K-means, Kohonen map)
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 2 (Bac+5)</li>
-                                    <li>Tutorials and practicals</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>SBC - Knowledge Based Systems</h3>
+                                <h3 class="class-name">SBC - Knowledge Based Systems</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Semantic Web (RDF, ontologies, OWL reasonning, SPARQL), Prolog
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 2 (Bac+5)</li>
-                                    <li>Lectures, tutorials and practicals</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Lectures</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>NoSQL</h3>
+                                <h3 class="class-name">NoSQL</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Document-oriented databases (MongoDB),
                                     search engines (Elasticsearch),
                                     key-value databases (Redis),
                                     column-oriented databases (HBase),
                                     graph databases (Neo4J)
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 2 (Bac+5)</li>
-                                    <li>Practicals</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>PCL - Compiler Implementation Project</h3>
+                                <h3 class="class-name">PCL - Compiler Implementation Project</h3>
 
-                                <ul>
-                                    <li>M.Sc. Year 1 (Bac+4)</li>
-                                    <li>Practicals</li>
-                                    <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text" id="pcl1819-project">Project</span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1819-project">
+                                            Developing a compiler
+                                        </div>
+                                    </span>
+                                    <span class="mdl-chip material-chip">
+                                        <span class="mdl-chip__text" id="pcl1819-material"><a href="https://github.com/pmonnin/compilation-lab">Material</a></span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1819-material">
+                                            Files needed for the first session
+                                        </div>
+                                    </span>
+                                </div>
                             </div>
 
                             <h2 id="2017-2018">2017 - 2018</h2>
@@ -193,44 +392,85 @@
                             <p>Teaching Assistant at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a></p>
 
                             <div class="increment-block">
-                                <h3>IA - Artificial Intelligence</h3>
+                                <h3 class="class-name">IA - Artificial Intelligence</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Search algorithms (e.g., A*, alpha-beta pruning),
                                     genetic algorithms,
                                     constraint satisfaction problems,
                                     Markov decision processes,
                                     decision trees,
                                     neural networks (e.g., backpropagation algorithm, multilayer perceptron, K-means, Kohonen map)
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 2 (Bac+5)</li>
-                                    <li>Lectures, tutorials and practicals</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Lectures</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>SBC - Knowledge Based Systems</h3>
+                                <h3 class="class-name">SBC - Knowledge Based Systems</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Semantic Web (RDF, ontologies, OWL reasonning, SPARQL), Prolog
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 2 (Bac+5)</li>
-                                    <li>Lectures, tutorials and practicals</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 2 (Bac+5)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Lectures</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Project</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>PCL - Compiler Implementation Project</h3>
+                                <h3 class="class-name">PCL - Compiler Implementation Project</h3>
 
-                                <ul>
-                                    <li>M.Sc. Year 1 (Bac+4)</li>
-                                    <li>Practicals</li>
-                                    <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text" id="pcl1718-project">Project</span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1718-project">
+                                            Developing a compiler
+                                        </div>
+                                    </span>
+                                    <span class="mdl-chip material-chip">
+                                        <span class="mdl-chip__text" id="pcl1718-material"><a href="https://github.com/pmonnin/compilation-lab">Material</a></span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1718-material">
+                                            Files needed for the first session
+                                        </div>
+                                    </span>
+                                </div>
                             </div>
 
                             <h2 id="2016-2017">2016 - 2017</h2>
@@ -238,41 +478,79 @@
                             <p>Teaching Assistant at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a></p>
 
                             <div class="increment-block">
-                                <h3>TOP - Computer Science Basics</h3>
+                                <h3 class="class-name">TOP - Computer Science Basics</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     Sorting algorithms, complexity, recursivity, back-tracking, Hoare logic
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>B.Eng. (Bac+3)</li>
-                                    <li>Tutorials and practicals</li>
-                                    <li>Project: implementing a music recognition service like Shazam</li>
-                                    <li><a href="https://pmonnin.github.io/top-music-detection/">Documentation of the API provided to the students for the project</a></li>
-                                </ul>
+
+
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">B.Eng. (Bac+3)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text" id="top1617-project">Project</span>
+                                        <div class="mdl-tooltip" data-mdl-for="top1617-project">
+                                            Developing a music recognition<br />algorithm like Shazam
+                                        </div>
+                                    </span>
+                                    <span class="mdl-chip material-chip">
+                                        <span class="mdl-chip__text" id="top1617-material"><a href="https://pmonnin.github.io/top-music-detection/">Material</a></span>
+                                        <div class="mdl-tooltip" data-mdl-for="top1617-material">
+                                            Documentation of the API<br />provided to students
+                                        </div>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>TRAD1 - Theory of Compilation</h3>
+                                <h3 class="class-name">TRAD1 - Theory of Compilation</h3>
 
-                                <span class="class-description">
+                                <p class="class-description">
                                     LR(0), SLR(1), LR(1) and LALR(1) parsers, Symbol Tables, Abstract Syntax Trees
-                                </span>
+                                </p>
 
-                                <ul>
-                                    <li>M.Sc. Year 1 (Bac+4)</li>
-                                    <li>Tutorials</li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Tutorials</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div class="increment-block">
-                                <h3>PCL - Compiler Implementation Project</h3>
+                                <h3 class="class-name">PCL - Compiler Implementation Project</h3>
 
-                                <ul>
-                                    <li>M.Sc. Year 1 (Bac+4)</li>
-                                    <li>Practicals</li>
-                                    <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text" id="pcl1617-project">Project</span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1617-project">
+                                            Developing a compiler
+                                        </div>
+                                    </span>
+                                    <span class="mdl-chip material-chip">
+                                        <span class="mdl-chip__text" id="pcl1617-material"><a href="https://github.com/pmonnin/compilation-lab">Material</a></span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1617-material">
+                                            Files needed for the first session
+                                        </div>
+                                    </span>
+                                </div>
                             </div>
 
                             <h2 id="2015-2016">2015 - 2016</h2>
@@ -280,34 +558,41 @@
                             <p>Temporary Lecturer at <a href="http://telecomnancy.univ-lorraine.fr/">TELECOM Nancy</a></p>
 
                             <div class="increment-block">
-                                <h3>PCL - Compiler Implementation Project</h3>
+                                <h3 class="class-name">PCL - Compiler Implementation Project</h3>
 
-                                <ul>
-                                    <li>M.Sc. Year 1 (Bac+4)</li>
-                                    <li>Practicals</li>
-                                    <li><a href="https://github.com/pmonnin/compilation-lab">Files needed for the first practical session</a></li>
-                                </ul>
+                                <div class="class-info">
+                                    <span class="mdl-chip degree-chip">
+                                        <span class="mdl-chip__text">M.Sc. Year 1 (Bac+4)</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">Practicals</span>
+                                    </span>
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text" id="pcl1516-project">Project</span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1516-project">
+                                            Developing a compiler
+                                        </div>
+                                    </span>
+                                    <span class="mdl-chip material-chip">
+                                        <span class="mdl-chip__text" id="pcl1516-material"><a href="https://github.com/pmonnin/compilation-lab">Material</a></span>
+                                        <div class="mdl-tooltip" data-mdl-for="pcl1516-material">
+                                            Files needed for the first session
+                                        </div>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
                     </div>
-
-                    <div class="mdl-cell mdl-cell--2-col-desktop"></div>
                 </div>
+            </div>
 
-                <footer class="mdl-mini-footer">
-                    <p>
-                        Last udpate: August 3, 2019
-                        <br />
-                        This website uses
-                        <a href="https://github.com/google/material-design-lite">Material Design Lite</a>
-                        under
-                        <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Apache-2 license</a>
-                        <br />
-                        Design inspired from the <a href="https://getmdl.io/templates/index.html">Portfolio template</a>
-                    </p>
-                </footer>
-            </main>
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
+            </div>
 
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp" id="footer-card">
+                <div class="mdl-card__supporting-text">
+                    <p>Last update: August 21, 2021</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

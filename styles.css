@@ -1,167 +1,117 @@
-.max-width {
-    width: 100%;
-}
-
-.mdl-navigation__link {
-    text-transform: uppercase;
-}
-
-.mdl-mini-footer {
-    padding: 5px;
-}
-
-.mdl-mini-footer p {
-    padding: 0px;
-    margin: auto;
-    text-align: center;
-}
-
-.mdl-layout__header-row {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.mdl-layout__header {
-    background: url(images/header-background.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#main-row {
-    display: block;
-    height: 200px;
-}
-
-#main-row p {
-    margin: 10px;
-    padding: 0;
-}
-
-#header-id-picture img {
-    border-radius: 50%;
-    height: 90px;
-    margin-top: 10px;
-    border: 2px white solid;
-}
-
-#menu-bar {
-    height: 45px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#menu-bar nav {
-    width: 100%;
-    height: 45px;
-    overflow: auto;
-}
-
-.mdl-layout__header-row .mdl-layout__tab {
-    height: 41px;
-    line-height: 49px;
-    font-size: 15px;
-}
-
-.mdl-layout__header-row .mdl-layout__tab-bar {
-    height: 45px;
-    justify-content: center;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    margin: 0;
-    padding: 0;
-}
-
-.mdl-layout__header-row .is-active {
-    line-height: 49px;
-    border-bottom: solid 4px rgb(255, 152, 0);
-}
-
-.increment-block {
-    margin-left: 50px;
-}
-
-.class-description {
-    font-style: italic;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-#profiles {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-#profiles img {
-    width: 50px;
-}
-
-.mdl-layout__tab {
-    color: #FFFFFF;
-}
-
-.journal {
-    font-style: italic;
+body {
+    background-color: #FAFAFA;
 }
 
 .author {
     font-weight: bold;
 }
 
+.journal {
+    font-style: italic;
+}
+
+.mdl-grid {
+    max-width: 90%;
+}
+
+.id-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center { 
+    margin: auto;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .publication {
-    display: flex;
-    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
 }
 
-.publication p {
-    margin: 0;
-    margin-right: 50px;
-    padding: 0;
-    text-align: justify;
-    width: 100%;
+.increment-block {
+    padding-left: 40px;
 }
 
-.publication button {
-    width: 20px;
-    margin-right: 5px;
+.class-name {
+    margin-bottom: 5px;
 }
 
-.no-size-grid {
-    height: 0;
-    padding: 0;
-    margin: 0
+.class-description {
+    margin-bottom: 5px;
 }
 
-.fixed-cell {
-    position: fixed;
-    margin-top: 0px;
+.degree-chip {
+    background-color: rgb(63,81,181);
+    color: white;
 }
 
-.fixed-cell div {
-    width: 14.66%;
+.material-chip {
+    background-color: rgb(255,171,64);
 }
 
-.null-min-height {
-    min-height: 0px;
+.material-chip span a {
+    color: rgb(66,66,66);
+    text-decoration: none;
+    font-weight: 400;
 }
 
-.fixed-cell div ul {
+#id-picture img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+    border: 2px white solid;
+}
+
+#id-card {
+    background: url(images/header-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+#id-title {
+    font-size: 1.4em;
+    margin: 0px;
+}
+
+#id-subtitle {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#profiles img {
+    width: 30px;
+}
+
+#footer-card {
+    min-height: 5px;
+}
+
+#footer-card p {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.mdl-list__item .mdl-list__item-primary-content .mdl-list__item-icon {
-    margin-right: 10px;
+h2 {
+    font-size: 2em;
 }
 
-.mdl-list__item {
-    padding: 0px;
-    margin: 0px;
+h3 {
+    font-size: 1.5em;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mdl-card__supporting-text {
+    width: 95%;
+    margin: auto;
 }
