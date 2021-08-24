@@ -115,3 +115,36 @@ button a {
     width: 95%;
     margin: auto;
 }
+
+.mdl-card__title {
+    padding: 0;
+    border-bottom: 1px solid #e0e0e0;
+    overflow-x: auto;
+}
+
+.menu-bar {
+    line-height: 46px;
+    padding: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    min-width: max-content;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 46px;
+    display: inline-block;
+    height: 100%;
+}
+
+.active {
+    color: rgba(0,0,0,.87);
+    border-bottom: 2px solid rgb(63,81,181);
+}
