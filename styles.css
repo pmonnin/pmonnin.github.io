@@ -148,3 +148,28 @@ button a {
     color: rgba(0,0,0,.87);
     border-bottom: 2px solid rgb(63,81,181);
 }
+
+.increased-margin-li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#address div, #address p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    line-height: unset;
+}
+
+#address {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
