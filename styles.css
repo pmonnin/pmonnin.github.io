@@ -173,3 +173,11 @@ h2 {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+table {
+    width: 100%;
+}
+
+td {
+    white-space: normal;
+}
