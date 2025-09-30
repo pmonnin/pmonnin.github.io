@@ -252,3 +252,8 @@ th {
     align-items: center; 
     justify-content: center;
 }
+
+.results img {
+    height: 20px;
+    margin-right: 5px;
+}
