@@ -199,3 +199,56 @@ th {
 .right-align {
     text-align: right;
 }
+
+/*
+    Styles for the SHACKLE project page
+*/
+
+.shackle-cell {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.shackle-cell h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.shackle-cell h2 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#funding-logo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#funding-logo img {
+    height: 50px;
+}
+
+.researcher-block {
+    margin: auto;
+    text-align: center;
+}
+
+.researcher-img {
+    border-radius: 50%;
+    height: 120px;
+    margin: 10px;
+}
+
+.institution-logos img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+#researchers {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
