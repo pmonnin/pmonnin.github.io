@@ -200,6 +200,20 @@ th {
     text-align: right;
 }
 
+#inst-logos {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#inst-logos img {
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /*
     Styles for the SHACKLE project page
 */
